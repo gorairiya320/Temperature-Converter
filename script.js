@@ -20,11 +20,11 @@ const kel=(res)=>{
 
 btn1.addEventListener("click",()=>{
     let celciusValue=cel(parseFloat(input.value));
-    result.innerText=`Output = ${celciusValue} degree celcius`
+    result.innerText=`${input.value} degree Farenheit = ${celciusValue} degree celcius`
 })
 
 
 btn2.addEventListener("click",()=>{
     let kelvinValue=kel(parseFloat(input.value));
-    result.innerText=`Output = ${kelvinValue} degree kelvin`
+    result.innerText=`${input.value} degree Farenheit = ${kelvinValue} kelvin`
 })
